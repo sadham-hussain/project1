@@ -1,0 +1,7 @@
+Reservation Details
+Reservation ID : 9
+Theatre Name : vetri
+Movie Name : leo
+Time Slot : 11:30am-2:15pm
+No Of Seats : 3
+Seats : 3 - 6
