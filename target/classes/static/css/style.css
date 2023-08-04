@@ -1,0 +1,62 @@
+* {
+	margin: none;
+	padding: none;
+}
+
+header {
+	background-color: gray;
+}
+
+h1 {
+	text-align: center;
+	font-family: cursive;
+	background-color: Maroon;
+}
+
+nav form {
+	display: inline-block;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	width: 500px;
+	padding: 30px;
+	transform: translate(-50%, -50%);
+	background: 0 15px 25px rgba(0, 0, 0, .6);
+	border-radius: 15px;
+	colour: white;
+}
+
+form button {
+	border: solid black 2px;
+	padding: 5px 10px;
+	color: White;
+	background: DodgerBlue;
+	border-radius: 15px;
+}
+
+form table {
+	margin-right: auto;
+	margin-left: 40%;
+}
+
+.main {
+	display: flex;
+	height: 350px;
+	width: 450px;
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 15px 15px 20px black;
+	border-radius: 50px;
+}
+
+/* Login Form */
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;
+	background-color: whitesmoke;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}

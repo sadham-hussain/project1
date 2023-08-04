@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	height: 500px;
+	width: 650px;
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 15px 15px 20px black;
+	border-radius: 50px;
+}
+
+/* Login Form */
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;
+	background-color: whitesmoke;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.form h2 {
+	font-size: 4rem;
+	font-family: sans-serif;
+	margin: 40px;
+}
+
+.box {
+	padding: 12px;
+	width: 65%;
+	margin: 15px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 25px;
+}
+
+#submit {
+	padding: 15px 30px;
+	width: 40%;
+	margin-top: 40px;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+}
+
+#submit:hover {
+	cursor: pointer;
+	background-color: navy;
+}
+
+.form a {
+	text-decoration: none;
+	color: darkmagenta;
+	margin-top: 20px;
+}
+
+.form a:hover {
+	color: magenta;
+}
+
+.side {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	background-color: white;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+.side img {
+	width: 300px;
+	height: 400px;
+}
